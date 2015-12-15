@@ -2,7 +2,7 @@
 
 Utilisation de la base de données HSQLDB :
 
-- télécharger hsqldb sur http://hsqldb.org/
+- télécharger hsqldb sur http://hsqldb.org/ (attention utilisez la version 1_8_0)
 - décompresser le fichier téléchargé
 - démarer le serveur de base de données via la commande 
     java -cp "hsqldb.jar" org.hsqldb.Server
