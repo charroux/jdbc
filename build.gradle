@@ -1,0 +1,13 @@
+apply plugin: 'java' 
+apply plugin: 'eclipse' 
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'hsqldb', name: 'hsqldb', version: '2.3'
+
+}
+
