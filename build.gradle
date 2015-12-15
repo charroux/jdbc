@@ -7,7 +7,7 @@ repositories {
 
 dependencies {
 
-    compile group: 'hsqldb', name: 'hsqldb', version: '2.3'
+    compile 'hsqldb:hsqldb:1.8.0.10'
 
 }
 

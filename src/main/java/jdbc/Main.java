@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		try{
 			Class.forName("org.hsqldb.jdbcDriver") ;	// chargement du pilote
-			Connection connexion = DriverManager.getConnection( "jdbc:hsqldb:hsql://localhost", "sa", null );
+			Connection connexion = DriverManager.getConnection( "jdbc:hsqldb:hsql://localhost/", "SA", null );
 			System.out.println(connexion);
 			String requete = "CREATE TABLE Persons(PersonID int, FirstName varchar(255), Age integer)";
 			PreparedStatement statement = connexion.prepareStatement(requete);
