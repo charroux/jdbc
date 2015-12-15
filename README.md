@@ -1,5 +1,17 @@
 # jdbc
 
+Projet Gradle :
+
+    installation de Gradle : http://gradle.org/
+
+    utilisation de gradle :
+
+    1°/ télécharger le projet à partir de ce site
+
+    2°/ construire le projet avec la commande "gradle build"
+
+    3°/ convertir le projet en un projet Eclipse avec la commande "gradle eclipse" puis importer le projet dans Eclipse
+
 Utilisation de la base de données HSQLDB :
 
 - télécharger hsqldb sur http://hsqldb.org/ (attention utilisez la version 1_8_0)
