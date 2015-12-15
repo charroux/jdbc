@@ -12,6 +12,11 @@ Projet Gradle :
 
     3°/ convertir le projet en un projet Eclipse avec la commande "gradle eclipse" puis importer le projet dans Eclipse
 
+Ce programme contient trois classes principales :
+- Main qui créé une table
+- RemplirBase qui insere des données
+- Requete qui recherche dans la base
+
 Utilisation de la base de données HSQLDB :
 
 - télécharger hsqldb sur http://hsqldb.org/ (attention utilisez la version 1_8_0)
